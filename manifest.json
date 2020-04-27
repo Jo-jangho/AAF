@@ -1,0 +1,12 @@
+{
+   "manifest_version": 2,
+   "content_scripts": [ {
+      "js": [ "aaf_revised.js", "content_script.js" ],
+      "matches": [ "file:///*", "http://aquaf.ssz.kr/*", "http://aquaf.n4.cc/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "AAF",
+   "name": "AAF",
+   "permissions": [ "http://aquaf.ssz.kr/*", "http://aquaf.n4.cc/*" ],
+   "version": "0.1"
+}
